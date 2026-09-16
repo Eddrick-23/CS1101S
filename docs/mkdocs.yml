@@ -1,5 +1,8 @@
 site_name: CS1101S Sample PA Solutions
 site_description: Solution code organised by practice and question
+site_url: https://eddrick-23.github.io/CS1101S/
+repo_url: https://github.com/Eddrick-23/CS1101S
+repo_name: Eddrick-23/CS1101S
 
 docs_dir: docs
 
@@ -8,6 +11,8 @@ hooks:
 
 theme:
   name: material
+  icon:
+    repo: fontawesome/brands/github
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -24,6 +29,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
+    - content.code.copy
     - navigation.sections
     - navigation.top
     - search.highlight

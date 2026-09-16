@@ -4,6 +4,8 @@ This repository publishes solution code as a Material for MkDocs website. The
 Python files under `solutions/` are the source of truth: a MkDocs hook discovers
 them and creates the site navigation and question pages automatically.
 
+**Website:** [CS1101S Sample PA Solutions](https://eddrick-23.github.io/CS1101S/)
+
 ## Repository structure
 
 ```text
