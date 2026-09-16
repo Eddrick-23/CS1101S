@@ -7,7 +7,7 @@ def flatten_bin_tree(T):
     # while left and right_subtree are lists
     # to build flattened tree
     # want
-    # llist(node_val, flattened_left_subtree_elements, flattened_right_subtree elements)
+    # llist(flattened_left_subtree_elements, node_val, flattened_right_subtree elements)
     
     if is_none(T):
         return None
